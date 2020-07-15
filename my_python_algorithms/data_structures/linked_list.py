@@ -45,7 +45,7 @@ class LinkedList:
             current = current.next
         raise ValueError
 
-    def _get_indexed_node(self, index):
+    def _get_indexed_node(self, index) -> Node:
         """Return node at given index."""
         if not self.head:
             raise IndexError
