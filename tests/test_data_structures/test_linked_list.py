@@ -106,6 +106,14 @@ def test_insert_error_2():
         ll.insert(2, 1)
 
 
+def test_insert_error_3():
+    ll = LinkedList(1)
+    ll.append(2)
+    ll.append(3)
+    with pytest.raises(IndexError):
+        ll.insert(4, "hey")
+
+
 def test_delete_head():
     ll = LinkedList(1)
     ll.delete(0)
