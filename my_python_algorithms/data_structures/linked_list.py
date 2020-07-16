@@ -1,5 +1,6 @@
 """
 Singly linked list implementation.
+Each node has a pointer to the next node.
 
 Time complexity:
 Access - O(n)
