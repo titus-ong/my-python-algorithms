@@ -22,7 +22,8 @@ A library of data structures and algorithms written in Python
 
 
 * Free software: MIT license
-..* Documentation: https://my-python-algorithms.readthedocs.io.
+..
+    * Documentation: https://my-python-algorithms.readthedocs.io.
 
 
 Features
